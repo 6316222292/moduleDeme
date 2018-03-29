@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    >
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/titleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="标题"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/meun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="菜单"
+        android:layout_gravity="center"/>
+</LinearLayout>
